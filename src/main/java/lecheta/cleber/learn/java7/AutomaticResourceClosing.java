@@ -13,7 +13,7 @@ public class AutomaticResourceClosing {
     public static void main(String[] args) {
         System.out.println("Automatic Resource Closing");
 
-        System.out.println("Current directory is:" + System.getProperty("user.dir") + "\n\n");
+        System.out.println("Current directory is:" + System.getProperty("user.dir") + "\n");
         File file = new File("aFile.txt");
         FileInputStream fis = null;
 
