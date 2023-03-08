@@ -1,4 +1,4 @@
-package lecheta.cleber.learn;
+package lechetacleber.learn;
 
 import org.junit.jupiter.api.Test;
 

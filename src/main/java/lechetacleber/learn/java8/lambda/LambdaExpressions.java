@@ -1,4 +1,4 @@
-package lecheta.cleber.learn.java8;
+package lechetacleber.learn.java8.lambda;
 
 import java.util.ArrayList;
 import java.util.function.Consumer;

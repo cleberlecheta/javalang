@@ -1,4 +1,4 @@
-package lecheta.cleber.learn.java7;
+package lechetacleber.learn.java7;
 
 import java.util.ArrayList;
 import java.util.List;
