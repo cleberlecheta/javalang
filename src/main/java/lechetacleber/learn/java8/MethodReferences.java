@@ -1,7 +1,7 @@
 package lechetacleber.learn.java8;
 
-import lechetacleber.learn.ComparisonProvider;
-import lechetacleber.learn.Person;
+import lechetacleber.ComparisonProvider;
+import lechetacleber.Person;
 
 import java.util.ArrayList;
 import java.util.Collections;

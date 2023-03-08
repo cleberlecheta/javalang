@@ -1,4 +1,4 @@
-package lechetacleber.learn;
+package lechetacleber;
 
 /**
  * @author Cleber Lecheta
