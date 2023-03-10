@@ -1,13 +1,21 @@
 package lechetacleber.learn.java8;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
 
 /**
  * @author Cleber Lecheta
  * YouTube | GitHub | Instagram | LinkedIN
  * @lechetacleber https://docs.oracle.com/javase/tutorial/datetime/index.html
+ * <p>
+ * from: import java.util.Date;
+ * to: java.time.*;
  */
 public class NewDateTimeAPI {
+
+    public static DateTimeFormatter dateFmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+    public static DateTimeFormatter timeFmt = DateTimeFormatter.ofPattern("HH:mm:ss");
+
     public static void main(String[] args) {
         System.out.println("New Date/Time API -> \n");
 

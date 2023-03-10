@@ -42,9 +42,10 @@ public class LambdaExpressions {
         printFormatted("Hello", exclaim);
         printFormatted("Hello", ask);
 
+        //new Thread(thread1).start();
         System.out.println("\nDefining Runnable by Lambda expression");
         Runnable java8Runner = () -> {
-            System.out.println("I am running");
+            System.out.println("java8Runner: I am running");
         };
         java8Runner.run();
     }
@@ -53,4 +54,10 @@ public class LambdaExpressions {
         String result = format.run(str);
         System.out.println(result);
     }
+
+    private static Runnable thread1 = new Runnable() {
+        public void run() {
+            System.out.println("thread1: I am running");
+        }
+    };
 }

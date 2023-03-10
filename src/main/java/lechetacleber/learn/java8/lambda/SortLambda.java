@@ -25,7 +25,15 @@ public class SortLambda {
         System.out.println("Implementing sorting with Lambda -> \n");
         System.out.println("original list: " + people);
 
-        //Comparing using traditional implementation + method reference
+        /* Comparing using traditional implementation
+        Comparator<Person> comp = new Comparator<Person> {
+            public int compare(Person p1, Person p2) {
+                String nomeC1 = p1.getName();
+                String nomeC2 = p2.getName();
+                return nomeC1.compareTo(nomeC2);
+            }
+        };*/
+        //Comparing using method reference
         Collections.sort(people, new ComparisonProvider()::compareByName);
         System.out.println(people + "\n");
 
@@ -34,4 +42,5 @@ public class SortLambda {
         Collections.sort(people, (p1, p2) -> p2.getName().compareTo(p1.getName()));
         System.out.println(people);
     }
+
 }

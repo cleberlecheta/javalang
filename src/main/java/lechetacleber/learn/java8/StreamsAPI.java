@@ -45,6 +45,7 @@ public class StreamsAPI {
                 .filter(p -> p.getName().contains("Wilson"))
                 .mapToInt(p -> p.getAge())
                 .sum();
+        System.out.println("Wilson age's now is: " + sum);
 
         //findFirst
         Person aPeople = allThePeople.stream()
@@ -52,7 +53,5 @@ public class StreamsAPI {
                 .findFirst()
                 .orElse(null);
         System.out.println("first person > 30: " + aPeople.toString());
-
-        System.out.println("Wilson age's now is: " + sum);
     }
 }
